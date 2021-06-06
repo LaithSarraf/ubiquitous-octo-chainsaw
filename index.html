@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Trading Leather</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.class1b{background-color: burlywood;
+color: darkblue;}
+    </style>
+</head>
+
+<body>
+<header>
+    <img style="width 20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqo19e5-MgZ0uNjwEGv2OD8LT3tTD_MgOjXA&usqp=CAU" alt="Boxing piture">
+
+<Nav style="float: right;">
+    <Ul style="background-color: black; list-style: none;
+     color: white;
+        padding-left: 10px;">
+        <Li>Home</Li>
+        <Li>Facebook</Li>
+        <Li>Meet the Authors</Li>
+        <Li>Contact</Li>
+    </Ul>
+    </Nav>
+</header>   
+<Main style="background-color: lightgoldenrodyellow;">
+ <img style="width: 10px;" src="https://t4.ftcdn.net/jpg/01/87/20/39/240_F_187203943_Yv7LEyI7iS99Ebha9cGUQ9acebr7ooDD.jpg" alt="Logo">
+ <h1 class="class1b">This is a Boxing Site</h1>
+ <p style="">Trading Leather is dedicated to boxing fans all around the world, if you enjoy boxing knockouts, and highlights then you just landed
+
+ </p>
+</Main>
+<footer style="text-align: center;text-size-adjust: 5px; background-color: lightslategray;">All Rights Reserved &copy; 2021
+
+</footer>
+
+<script>
+
+    let userName = prompt('Please enter you name!')
+console.log('asking the user about his name/her name ' + userName)
+alert('welcome ' + userName + ' to our Website')
+document.write(`<p style='background-color: red;color: darkblue;text-align: center'>Please enter you name! ` + userName +` </p>` )
+
+
+let age = prompt('Enter Your Age')
+console.log('Asking about the users age '+ age)
+document.write(`<p style='background-color: grey;color: black;text-align: center;'>Enter Your Age ` + age + ` </p>`)
+if (age >= 35) {
+    alert("You are from Mike Tyson's Era")
+}
+
+else {
+    alert("You are from Floyd Mayweather's ers")
+}
+
+let favBoxer = prompt('Who is Your Favorite Boxer?')
+console.log('Asking the user who is his favorite boxer ' + favBoxer)
+alert('you are a ' + favBoxer + ' fan!!')
+document.write(`<p style='background-color: maroon;color: white; text-align: center;'>Who is Your Favorite Boxer? ` + favBoxer +` </p>` )
+
+if (favBoxer !== 'Iron Mike Tyson') {
+    alert('Iron Mike will Punch you!')
+}
+
+let wDivision = prompt('What is your favorite weight division?')
+console.log('Asking the user about his favorite weight division '+ wDivision)
+document.write(`<p style='background-color: black;color: red; text-align: center;'>What is your favorite weight division? ` + wDivision +` </p>`)
+if (wDivision !== 'Heavy Weight') {
+    alert('Why do you prefer ' + wDivision+ ' and dont you like HEAVY WEIGHTS?!?!?!:(((((')
+}
+
+alert('Hello Hello our Punching friend ' + 
+userName + ', you are ' + age +
+ ' years old and probably love boxing as much as us, we know you prefer ' + 
+ favBoxer + ' but our favorite boxer will always be the Legend Iron Mike Tyson, and its sad you prefer ' +
+ wDivision + ' more than heavy weights but we are sure, after surfing our wesbite you will love Iron Mike Tyson and all the Heavyweights!!!! Enjoy your time Dear BOXER!'
+)
+</script>
+
+</body>
+</html>
